@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>World Travels USA</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <header>
+    <section class="upper-section">
+      <!-- Content of the upper section -->
+      <div>
+        <h1>Welcome to World Travels USA</h1>
+        <p>Your specialist travel agency for destinations in the United States of America.</p>
+      </div>
+    </section>
+  </header>
+
+  <main>
+    <section class="container">
+      <h2>Our Popular Destinations</h2>
+    </section>
+
+    <section class="cards">
+      <!-- Card 1 -->
+      <div class="card">
+        <img src="images/la.jpeg" alt="View of Los Angeles">
+        <h3>Los Angeles</h3>
+        <a href="https://www.discoverlosangeles.com/" class="btn-blue" target="_blank">Travel to Los Angeles</a>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="card">
+        <img src="images/nyc.jpeg" alt="View of New-York City">
+        <h3>New-York</h3>
+        <a href="https://www.nycgo.com/" class="btn-blue" target="_blank">Travel to New York</a>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="card">
+        <img src="images/mia.jpeg" alt="View of Miami">
+        <h3>Miami</h3>
+        <a href="https://www.miamiandbeaches.com/" class="btn-blue" target="_blank">Travel to Miami</a>
+      </div>
+
+      <!-- Card 4 -->
+      <div class="card">
+        <img src="images/sf.jpeg" alt="View of San Francisco">
+        <h3>San Francisco</h3>
+        <a href="https://www.sftravel.com/" class="btn-blue" target="_blank">Travel to San Francisco</a>
+      </div>
+
+      <!-- Card 5 -->
+      <div class="card">
+        <img src="images/vegas.jpeg" alt="View of Las Vegas">
+        <h3>Las Vegas</h3>
+        <a href="https://www.visitlasvegas.com/" class="btn-blue" target="_blank">Travel to Las Vegas</a>
+      </div>
+
+      <!-- Card 6 -->
+      <div class="card">
+        <img src="images/moscow.jpeg" alt="View of Moscow">
+        <h3>Moscow</h3>
+        <a href="https://www.mos.ru/" class="btn-blue" target="_blank">Travel to Moscow</a>
+      </div>
+
+      <!-- Card 7 -->
+      <div class="card">
+        <img src="images/meeting.jpeg" alt="Meeting">
+        <h3>Business Meetings</h3>
+        <a href="https://www.mycwt.com/" class="btn-blue" target="_blank">Business Travel</a>
+      </div>
+    </section>
+
+     <!-- Testimonial section -->
+<div class="testimonial-carousel">
+  <div class="testimonial">
+    <div class="rating">
+      <input type="radio" id="star5" name="rating1" value="5" />
+      <label for="star5">⭐️⭐️⭐️⭐️⭐️</label>
+    </div>
+    <p>"Great service! It exceeded my expectations. Highly recommended!"</p>
+    <p class="author">- John Smith</p>
+  </div>
+  <div class="testimonial">
+    <div class="rating">
+      <input type="radio" id="star4" name="rating2" value="4" />
+      <label for="star4">⭐️⭐️⭐️⭐️</label>
+    </div>
+    <p>"Eagle Travel made our trip memorable. I can't wait to book again!"</p>
+    <p class="author">- Emily Davis</p>
+  </div>
+  <div class="testimonial">
+    <div class="rating">
+      <input type="radio" id="star5" name="rating3" value="5" />
+      <label for="star5">⭐️⭐️⭐️⭐️⭐️</label>
+    </div>
+    <p>"Their attention to detail and customer satisfaction is unmatched."</p>
+    <p class="author">- David Johnson</p>
+  </div>
+  <div class="testimonial">
+    <div class="rating">
+      <input type="radio" id="star4" name="rating4" value="4" />
+      <label for="star4">⭐️⭐️⭐️⭐️</label>
+    </div>
+    <p>"Eagle Travel turned our vacation dream into reality."</p>
+    <p class="author">- Sarah Wilson</p>
+  </div>
+  <div class="testimonial">
+    <div class="rating">
+      <input type="radio" id="star5" name="rating5" value="5" />
+      <label for="star5">⭐️⭐️⭐️⭐️⭐️</label>
+    </div>
+    <p>"Professional and friendly staff. A pleasure to deal with!"</p>
+    <p class="author">- Jessica Brown</p>
+  </div>
+</div>
+
+<!-- Services Offered Section -->
+<div class="services">
+  <h2 class="services-heading">Services We Offer</h2>
+  <div class="service-card">
+    <!-- Service Card 1 -->
+    <img src="https://source.unsplash.com/400x300/?travel" alt="Service 1">
+    <div class="service-details">
+      <h3>Service 1</h3>
+      <p>Description of Service 1</p>
+      <a href="#" class="btn-blue">Learn More</a>
+    </div>
+  </div>
+  <div class="service-card">
+    <!-- Service Card 2 -->
+    <img src="https://source.unsplash.com/400x300/?vacation" alt="Service 2">
+    <div class="service-details">
+      <h3>Service 2</h3>
+      <p>Description of Service 2</p>
+      <a href="#" class="btn-blue">Learn More</a>
+    </div>
+  </div>
+  <!-- Additional Service Cards -->
+</div>
+
+<div class="gallery">
+  <h2 class="gallery-heading">Gallery</h2>
+  <div class="gallery-images">
+    <div class="gallery-item">
+      <div class="card">
+        <img src="https://source.unsplash.com/400x300/?city" alt="City Image" onclick="openLightbox(this.src)">
+        <div class="overlay">
+          <span class="overlay-text">City Image</span>
+        </div>
+      </div>
+    </div>
+    <!-- Add more gallery items with similar structure -->
+    <div class="gallery-item">
+      <div class="card">
+        <img src="https://source.unsplash.com/400x300/?nature" alt="Nature Image" onclick="openLightbox(this.src)">
+        <div class="overlay">
+          <span class="overlay-text">Nature Image</span>
+        </div>
+      </div>
+    </div>
+    <div class="gallery-item">
+      <div class="card">
+        <img src="https://source.unsplash.com/400x300/?landscape" alt="Landscape Image" onclick="openLightbox(this.src)">
+        <div class="overlay">
+          <span class="overlay-text">Landscape Image</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Lightbox Modal -->
+<div id="lightboxModal" class="lightbox-modal">
+  <span class="close-btn" onclick="closeLightbox()">&times;</span>
+  <img src="" alt="Lightbox Image" class="lightbox-content" id="lightboxImage">
+</div>
+
+  </main>
+  <footer>
+    <div class="mail-wrapper">
+      <table class="wrapper" border="0" cellpadding="0" cellspacing="0" role="presentation">
+        <tr>
+          <td>
+            <a href="https://c91jgz47yo6.typeform.com/to/kLOHs5Md?typeform-medium=embed-email" target="_blank">Take our travel quiz</a>
+          </td>
+        </tr>
+      </table>
+    </div>
+
+    <div class="contact-form">
+      <h2 style="background-color: blanchedalmond;">Contact Us</h2>
+      <form>
+        <input type="text" placeholder="Name" required>
+        <input type="email" placeholder="Email" required>
+        <textarea placeholder="Message" required></textarea>
+        <button>Submit</button>
+      </form>
+    </div>
+  
+    <!-- Credits -->
+    <div class="credits">
+      <p>&copy; 2023 Your Company. All rights reserved.</p>
+      <p>Crafted with ❤️ by Adwait Sadalage</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
